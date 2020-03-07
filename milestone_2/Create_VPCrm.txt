@@ -1,0 +1,11 @@
+###### READ ME for create_VPC script ###################
+The script automates creation of VPC's for the customers on the basis of Tenant ID and Subnet given by the user as an input to a widget.
+
+Script takes two input:
+1)Tenant ID 
+2)Subnet ID
+
+After taking the input the script creates 4 VPC's per tenant at 4 different locations(datacentres) and displays the database of the tenant.
+
+Execution:
+python create_VPC.py 
